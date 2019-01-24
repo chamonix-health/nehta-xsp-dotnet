@@ -1,0 +1,17 @@
+﻿<pathologyReport xmlns="http://www.example.org">
+  <creator>
+    <name>Dr Mary Pathologist</name>
+    <id>cn=wcf_client</id>
+  </creator>
+  <receiver>
+    <name>Dr General Practitioner</name>
+    <id>8003630000000020</id>
+  </receiver>
+  <patient>
+    <name>Mr John Patient</name>
+    <id>8003630000000002</id>
+  </patient>
+  <results>
+    <test name="blood pressure" units="mmHg">90-119</test>
+  </results>
+</pathologyReport>
