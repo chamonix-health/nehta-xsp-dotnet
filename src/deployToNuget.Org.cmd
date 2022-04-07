@@ -1,8 +1,6 @@
 del *.nupkg
 
-msbuild /p:Configuration=Release
-
-NuGet.exe pack Nehta.Xsp\Nehta.Xsp.csproj -Properties Configuration=Release
+dotnet pack .\Nehta.Xsp\Nehta.Xsp.csproj -c Release -o .
 
 pause
 
